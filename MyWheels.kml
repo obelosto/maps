@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <ExtendedData>
+         <Data name="creator">
+            <value>
+               <![CDATA[Yandex Map Constructor]]>
+            </value>
+         </Data>
+      </ExtendedData>
+      <name>
+         <![CDATA[MyWheels]]>
+      </name>
+      <description>
+         <![CDATA[Imitation of the car's location of the carsharing service MyWheels]]>
+      </description>
+      <Folder>
+         <Placemark>
+            <name>
+               <![CDATA[Škoda Rapid]]>
+            </name>
+            <description>
+               <![CDATA[Plate: K821 XC<br/>Fuel reserve: 280 km]]>
+            </description>
+            <Style>
+               <IconStyle>
+                  <color>ff4345ed</color>
+                  <Icon>
+                     <href>https://api-maps.yandex.ru/i/0.4/micro/pmrds.png</href>
+                  </Icon>
+                  <hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/>
+               </IconStyle>
+            </Style>
+            <Point>
+               <coordinates>4.269309576415822,52.097485904631</coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>
+               <![CDATA[Volkswagen Polo]]>
+            </name>
+            <description>
+               <![CDATA[Plate: T524PA<br/>Fuel reserve: 434 km]]>
+            </description>
+            <Style>
+               <IconStyle>
+                  <color>ff4345ed</color>
+                  <Icon>
+                     <href>https://api-maps.yandex.ru/i/0.4/micro/pmrds.png</href>
+                  </Icon>
+                  <hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/>
+               </IconStyle>
+            </Style>
+            <Point>
+               <coordinates>3.5805075725549815,51.442978760281015</coordinates>
+            </Point>
+         </Placemark>
+         <Placemark>
+            <name>
+               <![CDATA[Nissan Qashqai]]>
+            </name>
+            <description>
+               <![CDATA[Plate: M192KT<br/>Fuel reserve: 588 km]]>
+            </description>
+            <Style>
+               <IconStyle>
+                  <color>ff4345ed</color>
+                  <Icon>
+                     <href>https://api-maps.yandex.ru/i/0.4/micro/pmrds.png</href>
+                  </Icon>
+                  <hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/>
+               </IconStyle>
+            </Style>
+            <Point>
+               <coordinates>4.434512194060356,51.69660749932964</coordinates>
+            </Point>
+         </Placemark>
+      </Folder>
+   </Document>
+</kml>
