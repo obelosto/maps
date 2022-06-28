@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://api-maps.yandex.ru/2.1/?load=package.full&lang=en-US" type="text/javascript"></script>
+    <script src="myScript.js"></script>
+
+    <title>Three maps in one</title>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>My maps test</h1>
+
+        <p>I have used Map-constructor to put points on the map, than exported it to .kml list and used this file to draw points on each map. The last one, merged map, calls one-by-one each list and puts it into the same map.</p>
+    </header>
+    <main>
+
+        <div class="inner">
+
+            <div class="row">
+
+                <article>
+                    <h3>My Wheels</h3>
+                    <div id="mapA" class="map"></div>
+
+                </article>
+
+                <article>
+                    <h3>Go Sharing</h3>
+                    <div id="mapB" class="map"></div>
+
+                </article>
+
+                <article>
+                    <h3>Bondi</h3>
+                    <div id="mapC" class="map"></div>
+
+                </article>
+
+            </div>
+            <div class="row">
+                <article>
+                    <h3>Merged map</h3>
+                    <div id="mergedMap" class="map"></div>
+                </article>
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
