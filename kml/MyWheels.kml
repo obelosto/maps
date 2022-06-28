@@ -26,7 +26,7 @@
                <IconStyle>
                   <color>ff4345ed</color>
                   <Icon>
-                     <href>car.png</href>
+                     <href>carR.png</href>
                   </Icon>
                   <hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/>
                </IconStyle>
@@ -46,7 +46,7 @@
                <IconStyle>
                   <color>ff4345ed</color>
                   <Icon>
-                     <href>https://api-maps.yandex.ru/i/0.4/micro/pmrds.png</href>
+                     <href>carR.png</href>
                   </Icon>
                   <hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/>
                </IconStyle>
@@ -66,7 +66,7 @@
                <IconStyle>
                   <color>ff4345ed</color>
                   <Icon>
-                     <href>https://api-maps.yandex.ru/i/0.4/micro/pmrds.png</href>
+                     <href>carR.png</href>
                   </Icon>
                   <hotSpot x="7" y="28" xunits="pixels" yunits="insetPixels"/>
                </IconStyle>
